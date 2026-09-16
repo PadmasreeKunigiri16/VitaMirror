@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# FastAPI / SQLite
+*.db
+*.sqlite3
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Node / Frontend
+node_modules/
+dist/
+.cache/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# MediaPipe model cache
+backend/app/vision/models/
+
+# Test artifacts
+test-results/
+playwright-report/
